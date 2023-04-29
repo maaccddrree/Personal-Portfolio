@@ -11,8 +11,12 @@
 body {
   background-color: #f5f5f5;
   color: #4e4e4e;
-  font-style: italic;
-  color: red;
+  font-family: 'Merriweather', serif;
+  color: rgb(56, 40, 42);
+}
+
+.hero route bg-image {
+  width: 40px;
 }
 
 h1,
@@ -21,7 +25,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #1e1e1e;
+  color: #59a325;
 }
 
 a {
@@ -751,7 +755,7 @@ a:hover {
 .hero {
   height: 100vh;
   position: relative;
-  color: #fff;
+  color: rgb(255, 0, 0);
 }
 
 .hero .hero-content {
@@ -839,29 +843,39 @@ a:hover {
 .about-mf .box-shadow-full {
   padding-top: 4rem;
   padding-bottom: 4rem;
+  background-color: rgb(132, 64, 76);
+  border-radius: 15px;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px rgb(183, 110, 193);
 }
 
 .about-mf .about-img {
   margin-bottom: 2rem;
+  /* background-color: rgb(203, 26, 135); */
+
 }
 
 .about-mf .about-img img {
   margin-left: 10px;
+  background-color: rgb(203, 26, 135);
+  color: #0062d3;
 }
 
 @media (min-width: 767px) {
+ 
   .about-mf .box-pl2 {
+   /* color: pink; */
     margin-top: 3rem;
     padding-left: 0rem;
   }
 }
 
 .skill-mf span {
-  color: #4e4e4e;
+  color: #1cba14;
 }
 
 .skill-mf .progress {
-  background-color: #cde1f8;
+  background-color: #187ff4;
   margin: 0.5rem 0 1.2rem 0;
   border-radius: 0;
   height: 0.7rem;
@@ -869,7 +883,7 @@ a:hover {
 
 .skill-mf .progress .progress-bar {
   height: 0.7rem;
-  background-color: #0078ff;
+  background-color: #c70c9f;
 }
 
 /*--------------------------------------------------------------
@@ -892,7 +906,7 @@ a:hover {
 
 .service-box .service-ico {
   margin-bottom: 1rem;
-  color: #1e1e1e;
+  color: #ed15c9;
 }
 
 .service-box .ico-circle {
