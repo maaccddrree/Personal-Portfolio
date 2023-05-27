@@ -465,74 +465,24 @@ a:hover {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
-.content-9 h2 {
-	color: #fff;
-	font-size: 8em;
-	position: absolute;
-	transform: translate(-50%, -50%);
-}
-
-.content-9 h2:nth-child(1) {
-	color: transparent;
-	-webkit-text-stroke: 2px #03a9f4;
-}
-
-.content-9 h2:nth-child(2) {
-	color: #03a9f4;
-	animation: animate 4s ease-in-out infinite;
-}
-
-@keyframes animate {
-	0%,
-	100% {
-		clip-path: polygon(
-			0% 45%,
-			16% 44%,
-			33% 50%,
-			54% 60%,
-			70% 61%,
-			84% 59%,
-			100% 52%,
-			100% 100%,
-			0% 100%
-		);
-	}
-
-	50% {
-		clip-path: polygon(
-			0% 60%,
-			15% 65%,
-			34% 66%,
-			51% 62%,
-			67% 50%,
-			84% 45%,
-			100% 46%,
-			100% 100%,
-			0% 100%
-		);
-	}
-}
-
-
-
-
 
 #header {
-  transition: all 0.5s;
+  transition: all 0.2s;
   z-index: 997;
   padding: 20px 0;
 }
 
 .logo-o h1 {
-	color: #fff;
-	font-size: 8em;
+  text-align: center;
+	color: rgb(255, 255, 255);
+	font-size: 9em;
 	position: absolute;
 	transform: translate(-50%, -50%);
 }
 
 .logo-o h1:nth-child(1) {
 	color: transparent;
-	-webkit-text-stroke: 2px #03a9f4;
+	-webkit-text-stroke: 2px #ff701e;
 }
 
 .logo-o h1:nth-child(2) {
@@ -559,7 +509,7 @@ a:hover {
 	50% {
 		clip-path: polygon(
 			0% 60%,
-			15% 65%,
+			50% 65%,
 			34% 66%,
 			51% 62%,
 			67% 50%,
