@@ -488,7 +488,14 @@ a:hover {
 }
 
 #header.header-scrolled {
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(7, 12, 10, 0.9);
+  /* background-image: url("https://media.giphy.com/media/Fbox1ygIqnga5dLinz/giphy.gif"); */
+  /* background-image: url("https://media.giphy.com/media/3o7buijTqhjxjbEqjK/giphy.gif"); */
+  background-image: url("https://media.giphy.com/media/l378ggYRasDXRtUm4/giphy.gif");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 100vh;
+
   padding: 12px 0;
 }
 
@@ -501,6 +508,81 @@ a:hover {
 .navbar {
   padding: 0;
 }
+/* 
+.navbar a:before, .navbar a:after {
+ 
+
+    position: absolute;
+    opacity: 0.5;
+    height: 100%;
+    width: 3px;
+    content: '';
+    background: rgb(154, 244, 9);
+    transition: all 0.1s;
+}
+
+<!-- left line moving -->*/
+/* .navbar a:before {  
+  background-color: rgb(46, 4, 255);
+    left: 0px;
+    top: 0px;
+} */
+
+/*<!-- right line moving -->*/
+/* .navbar a:after {
+  background-color: rgb(255, 10, 10);
+    right:-10px;
+    bottom: 0px;
+}
+
+.navbar a:hover:before, .navbar a:hover:after {
+  background: rgb(14, 192, 241);
+    opacity: 1;
+    height: 2px;
+    width: 100%;
+} */
+
+
+
+#navn a:before, #navn a:after {
+    position: absolute;
+    opacity: 40.5;
+    height: 100%;
+    width: 2px;
+    content: '';
+    /* background: rgb(0, 213, 255); */
+    transition: all 0.4s;
+}
+
+/*<!-- left line moving -->*/
+#navn a:before  {
+    /* width: 10px; */
+    left: -5px;
+    top: 0px;
+    background: rgb(8, 45, 5);
+}
+
+/*<!-- right line moving -->*/
+#navn a:after  {
+
+    right: -5px;
+    bottom: 0px;
+    background-color: rgb(51, 0, 255);
+}
+
+#navn a:hover:before, #navn a:hover:after {
+    opacity: 40px;
+    height: 0px;
+    width: 100%;
+
+}
+
+
+
+
+
+
+
 
 .navbar ul {
   margin: 0;
