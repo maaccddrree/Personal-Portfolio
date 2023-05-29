@@ -469,13 +469,15 @@ a:hover {
 #header {
   transition: all 0.2s;
   z-index: 997;
-  padding: 20px 0;
+  padding: 50px 0;
 }
 
 .logo-o h1 {
-  text-align: center;
+  margin-left: 10%;
+  margin-top: 8px;
+  text-align: right;
 	color: rgb(255, 255, 255);
-	font-size: 9em;
+	font-size: 5em;
 	position: absolute;
 	transform: translate(-50%, -50%);
 }
@@ -541,13 +543,14 @@ a:hover {
 }
 
 #header.header-scrolled {
-  background: rgba(7, 12, 10, 0.9);
+  background: rgba(0, 0, 0, 0.9);
   /* background-image: url("https://media.giphy.com/media/Fbox1ygIqnga5dLinz/giphy.gif"); */
-  /* background-image: url("https://media.giphy.com/media/3o7buijTqhjxjbEqjK/giphy.gif"); */
-  background-image: url("https://media.giphy.com/media/l378ggYRasDXRtUm4/giphy.gif");
+  /* background-image: url("https://freefrontend.com/assets/img/css-animated-backgrounds/only-css-warning.mp4"); */
+  /* background-image: url("https://images.unsplash.com/photo-1517196084897-498e0abd7c2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fG5hdmlnYXRpb24lMjBiYXIlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"); */
+  /* background-image: url("/assets/img/purp2.gif"); */
   background-repeat: no-repeat;
-  background-position: left;
-  background-size: 100vh;
+  background-position: center;
+  background-size: 200vh;
 
   padding: 12px 0;
 }
@@ -983,17 +986,28 @@ a:hover {
   border-radius: 15px;
   color: rgb(220, 135, 135);
   text-shadow: 2px 2px rgb(41, 35, 42);
+  /* background-image: url('/assets/img/purp2.gif'); */
+}
+
+.about-mf {
+
+  background-image: url('/assets/img/purp2.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
 }
 
 .about-mf .about-img {
   margin-bottom: 2rem;
-
+  /* background-image: url('/assets/img/purp2.gif'); */
 }
 
 .about-mf .about-img img {
   margin-left: 10px;
   background-color: rgb(203, 26, 135);
   color: #0062d3;
+  /* background-image: url('/assets/img/purp2.gif'); */
 }
 
 @media (min-width: 767px) {
@@ -1025,7 +1039,7 @@ a:hover {
 # Services
 --------------------------------------------------------------*/
 .service-box {
-  background-color: rgb(38, 22, 22);
+  background-color: rgb(38, 22, 22); 
   padding: 2.5rem 1.3rem;
   border-radius: 1rem;
   margin-bottom: 3rem;
@@ -1451,7 +1465,7 @@ a:hover {
 }
 
 .card-blog .post-date {
-  color: #4e4e4e;
+  /* color: #4e4e4e; */
   display: inline-block;
   float: right;
 }
